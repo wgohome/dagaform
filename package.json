@@ -14,7 +14,8 @@
   ],
   "scripts": {
     "build": "tsup",
-    "test": "jest"
+    "test": "jest",
+    "index": "ts-node src/index"
   },
   "keywords": [
     "dag",
