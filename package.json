@@ -2,6 +2,10 @@
   "name": "dagaform",
   "version": "0.0.0",
   "description": "Utility to DAG-a-form. Manage directed acyclic graph relationship aamongst form fields in a complex form.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wgohome/dagaform.git"
+  },
   "main": ".dist/index.js",
   "module": ".dist/index.mjs",
   "types": "./dist/index.d.ts",
