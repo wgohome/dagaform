@@ -1,0 +1,31 @@
+{
+  "name": "dagaform",
+  "version": "0.0.0",
+  "description": "Utility to DAG-a-form. Manage directed acyclic graph relationship aamongst form fields in a complex form.",
+  "main": ".dist/index.js",
+  "module": ".dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "jest"
+  },
+  "keywords": [
+    "dag",
+    "directed-acyclic-graph",
+    "forms",
+    "form-fields"
+  ],
+  "author": "wgohome",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.11",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  }
+}
